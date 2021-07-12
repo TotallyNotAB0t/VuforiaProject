@@ -1,0 +1,161 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/pierr/Documents/Vuforia Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55145
+Successfully changed project path to: C:/Users/pierr/Documents/Vuforia Project
+C:/Users/pierr/Documents/Vuforia Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.98 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.20 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pierr/Documents/Vuforia Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7111
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002364 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.96 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.031 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.3 MB.
+System memory in use after: 83.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 2.773200 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.058900 ms MarkObjects: 2.305100 ms  DeleteObjects: 0.163700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/VuforiaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VuforiaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee58841721beb29fdf8aabb1e62abfe1') in 0.038633 seconds
+  Import took 0.041774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.166290 seconds.
+  path: Assets/ImportedRessources/ForestSound.wav
+  artifactKey: Guid(8065b88239a800e49bd48a3bf31e2e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedRessources/ForestSound.wav using Guid(8065b88239a800e49bd48a3bf31e2e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2e93476ee975b3c1695f765da659ba') in 0.100899 seconds
+  Import took 0.103547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/ImportedRessources/ObjectCollected.wav
+  artifactKey: Guid(504a2cb300c8fd94cac771f628047454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedRessources/ObjectCollected.wav using Guid(504a2cb300c8fd94cac771f628047454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244bb871294c782e07822ed487cd6b5e') in 0.034890 seconds
+  Import took 0.037028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.812299 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/SimpleInputHelper.cs
+  artifactKey: Guid(424a57205c2ff3c47aa53837c12b836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/SimpleInputHelper.cs using Guid(424a57205c2ff3c47aa53837c12b836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9ecfb4df5e820f6db968c046161b9b') in 0.032240 seconds
+  Import took 0.035224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572642 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/SimpleInput.cs
+  artifactKey: Guid(5e9007fbfcf04994b88c10e02cbc4229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/SimpleInput.cs using Guid(5e9007fbfcf04994b88c10e02cbc4229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadf02dd4e28755b3d7043685672e7fe') in 0.024182 seconds
+  Import took 0.026870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.657340 seconds.
+  path: Assets/Scenes/VuforiaScene/ReflectionProbe-0.exr
+  artifactKey: Guid(91131481c5e8b2a4c8f06024426a7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VuforiaScene/ReflectionProbe-0.exr using Guid(91131481c5e8b2a4c8f06024426a7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d14d144a909e2f1da95eef70889651') in 0.062604 seconds
+  Import took 0.065733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.896112 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(a5bd384595b96ea44a2769d5fec4b7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(a5bd384595b96ea44a2769d5fec4b7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9d091aa104ff3f802410cb988e4053') in 0.023721 seconds
+  Import took 0.026739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305353 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(a5bd384595b96ea44a2769d5fec4b7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(a5bd384595b96ea44a2769d5fec4b7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9d091aa104ff3f802410cb988e4053') in 0.026897 seconds
+  Import took 0.029698 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
